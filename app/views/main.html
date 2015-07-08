@@ -1,0 +1,30 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+    <h1>Office 365 Icon Font</h1>
+    <p class="lead">Pimp your next Add-in with the Office 365 SPO Icon Font</p>
+    <div>Powered by <img style="margin-left:10px;" height="32" src="images/p42_white.png" alt="Point 42"></div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">SPO365Icons:</h1>
+      <ul class="col-md-8 col-lg-12 col-sm-6 o365glyphs">
+        <li style="display:inline-block;background-color:#fff;" ng-repeat="icon in icons">
+          <div class="charBlock96" data-ng-bind-html="icon.html"></div>
+          <div><code>{{icon.code}}</code></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      <p>I Used the Yeoman <a href="https://github.com/yeoman/generator-angular">Angular v0.12.1</a> generator |
+        <a href="https://twitter.com/casvaniersel">@casvaniersel</a> |
+        <a href="http://www.point42.nl">Point42.nl</a></p>
+  </div>
+</footer>
+<div id="svg" style="display:none;"></div>

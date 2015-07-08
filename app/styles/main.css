@@ -1,0 +1,74 @@
+/**
+ * Office365 Fonts
+ */
+
+@font-face {
+    font-family:SPO365Icons;
+    src:url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.eot');
+    src:url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.eot?#iefix') format('embedded-opentype'),
+        url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.woff') format('woff'),
+        url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.ttf') format('truetype'),
+        url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.svg#web') format('svg');
+    font-style:normal;
+    font-weight:400;
+}
+
+/* Office 365 Icons */
+.o365glyphs {text-align:center; color:rgb(0,152,216);font-family:SPO365Icons;}
+.charBlock64{font-size:35px;display:inline-block;text-align:center;margin:0;padding:8px 14px;}
+.charBlock96{font-size:65px;display:inline-block;text-align:center;margin:0;padding:1px 15px;}
+/* Office 365 Icons */
+
+/* EXAMPLE */
+.Office365Logo:after{
+              font-family: SPO365Icons;
+              font-size:64px;
+              content: "\e056";
+          }
+
+/**
+ * App-wide Styles
+ */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: rgb(0, 152, 216);
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+code {
+    background-color:rgba(0,152,216,0.1);
+    color:rgb(0,152,216);
+}
