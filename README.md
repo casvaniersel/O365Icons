@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # o365-icons
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
@@ -10,3 +11,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+=======
+# O365Icons
+Office 365 Icons site
+>>>>>>> ef359b533437150fcbf875e652abf62d75c5049c
