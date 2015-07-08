@@ -1,0 +1,67 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+    <h1>Office 365 Icon Font</h1>
+    <p class="lead">Pimp your next Add-in with the Office 365 SPO Icon Font</p>
+    <div>Powered by <img style="margin-left:10px;" height="32" src="images/p42_white.085262ce.png" alt="Point 42"></div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">How to implement</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>The Font-Face CSS</h3>
+      <div>
+        First copy this CSS code in your main CSS file. 
+        <pre><code class="css">
+          @font-face {
+              font-family:SPO365Icons;
+              src:url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.eot');
+              src:url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.eot?#iefix') format('embedded-opentype'),
+                  url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.woff') format('woff'),
+                  url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.ttf') format('truetype'),
+                  url('//cdn.sharepointonline.com/15772/_layouts/15/fonts/Office365Icons.svg#web') format('svg');
+              font-style:normal;
+              font-weight:400;
+          }
+        </code></pre>  
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>The Icon CSS</h3>
+      <div>
+        Create a CSS class for the icon you want to use like this. 
+        <pre><code class="css">
+          .Office365Logo:after{
+              font-family: SPO365Icons;
+              font-size:64px;
+              content: "\e056";
+          }
+        </code></pre> 
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>The HTML</h3>
+      <div>
+        Create a span to display the CSS content. 
+        <pre><code class="html">
+          &lt;span class="Office365Logo"&gt;&lt;/span&gt;
+        </code></pre> 
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <h3>The Result</h3>
+      <span class="Office365Logo"></span>
+    </div>
+  </div>
+</div>
