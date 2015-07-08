@@ -9,9 +9,9 @@ version 0.12.0.
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
-
 Running `grunt test` will run the unit tests with karma.
+
 =======
 # O365Icons
 Office 365 Icons site
->>>>>>> ef359b533437150fcbf875e652abf62d75c5049c
+
